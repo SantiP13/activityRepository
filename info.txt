@@ -1,0 +1,5 @@
+Installed less@2.7.2 globally to utilize .less files, which allow nesting, variable and function usage in css.
+
+To convert from .less to .css, use the command: 
+
+// lessc styles.less styles.css //
