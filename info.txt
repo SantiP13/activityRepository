@@ -1,5 +1,20 @@
 Installed less@2.7.2 globally to utilize .less files, which allow nesting, variable and function usage in css.
 
+// npm install -g less@2.7.2 //
+
 To convert from .less to .css, use the command: 
 
 // lessc styles.less styles.css //
+
+Also installed sass as a dev dependency to utilize .scss files, which allow the same as .less but use $ instead of @ for their
+operations and needs more information.
+
+// npm install --save-dev node-sass@4.7.2 //
+
+To convert from .scss to .css, we first need to add this line into the scripts on package.json:
+
+// "scss": "node-sass -o css/ css/" //
+
+Then, run the command:
+
+// npm run scss //
